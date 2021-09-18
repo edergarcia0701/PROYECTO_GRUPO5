@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>HOGAR DE PASO Y ADOPCIÓN PARA MASCOTAS FELICES</h1>
+        <h2>CENTRO DE ADOPCIÓN DE MASCOTAS (PERROS Y GATOS)</h2>
+        <hr>
+    </main>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Adoptar.html">Adoptar</a>
+        <a href="Apadrinar.html">Apadrinar</a>
+        <a href="Donar.html">Donar</a>
+        <a href="formulario_contáctenos.html">Contactenos</a>
+    </nav>
+    <hr>
+    <h3>Formulario de Adopción</h3>
+
+    <table cellpadding="10">
+        <tr>
+            <td>
+                <img src="/IMAGENES/cat-2.jpg" height="200"/><br>
+                
+            </td>
+            <td>
+                <h3>Michi</h3>
+                <p>Gato cachorro de 15 dias de nacido </p>
+    
+            </td>
+        </tr>
+    </table>
+    <form method="POST" action="mi_servidor">
+    <fieldset>
+        <legend><h4>Datos personales </h4></legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"><br><br>
+        <label for="apellido">Apellidos:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tus apellidos" required="true"><br><br>
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" placeholder="Escribe tu dirección" required="true"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Escribe tu email"><br><br>
+        <label for="telefono">Telefono:</label>
+        <input type="text" id="telefono" name="telefono" placeholder="Escribe tu numero de telefono"><br><br>
+        <h4>Cuentanos por qué quieres adoptar:</h4>
+        <textarea name="texto" rows="10" cols="50">Escriba algo</textarea>
+   </fieldset>
+     </form>
+     <form method="POST" action="mi_servidor">
+        <fieldset>
+            <legend><h4>Requisitos básicos para adopción</h4></legend>
+            <p>
+                1. Ser mayor de edad.
+                2. Fotocopia cédula de ciudadanía.
+                3. Disponer de 45- 60 minutos de tiempo para realizar el proceso de adopción
+                4. Disponer de tiempo, espacio y recursos suficientes.
+                5. Contar con la aprobación de la Familia.
+                6. Aprobar el proceso de adopción (entrevista).
+                7. Contar con espacio suficiente para convivir con el animal.
+                8. Llevar correa para perro o guacal para gato.
+            </p>    
+       </fieldset>
+         </form>
+         <br><br>
+         <a href="#"><input type="button" value="Aplicar para adopción"></a> 
+</body>
+</html>

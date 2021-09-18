@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>HOGAR DE PASO Y ADOPCIÓN PARA MASCOTAS FELICES</h1>
+        <h2>CENTRO DE ADOPCIÓN DE MASCOTAS (PERROS Y GATOS)</h2>
+        <hr>
+    </main>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Adoptar.html">Adoptar</a>
+        <a href="Apadrinar.html">Apadrinar</a>
+        <a href="Donar.html">Donar</a>
+        <a href="formulario_contáctenos.html">Contactenos</a>
+    </nav>
+    <hr>
+    <h3>Apadrinar en efectivo</h3>
+
+    <table cellpadding="10">
+        <tr>
+            <td>
+                <img src="/IMAGENES/cat-2.jpg" height="200"/><br>
+                
+            </td>
+            <td>
+                <h3>Michi</h3>
+                <p>Gato cachorro de 15 dias de nacido </p>
+               
+
+            </td>
+            
+        </tr>
+    </table>
+    <form method="POST" action="mi_servidor">
+    <fieldset>
+        <legend><h4>Datos personales del padrino</h4></legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Escribe tu email"><br><br>
+        <label for="telefono">Telefono:</label>
+        <input type="text" id="telefono" name="telefono" placeholder="Escribe tu numero de telefono"><br><br>
+    
+   </fieldset>
+     </form>
+     <form method="POST" action="mi_servidor">
+        <fieldset>
+            <legend><h4>Modo de pago</h4></legend>
+            <p>Apadrinar en Efectivo consiste en dar una mensualidad por el tiempo que usted desee, con la cual se cubriran
+                los gastos de la mascota, durante este tiempo usted podra estar visitandola en el centro, al igual que si lo desea, 
+                posteriormente puede adoptarla
+            </p>
+            <p> Con que valor deseas Apadrinar? 
+                
+                    
+                    <input type="radio" value="30">$30.000</input>
+                    <input type="radio" value="40">$40.000</input>
+                    <input type="radio" value="50">$50.000</input>
+                    <input type="radio" value="otro">otro</input> 
+                    Cual? <input type="text" name="Valor" >
+                                                       
+                </p>
+                <h4>De que forma desea realizar el pago?</h4>
+                <input type="radio" value="tcredito">Tarjeta de credito</input>
+                <input type="radio" value="cbancaria">Consignacion bancaria</input>
+                <input type="radio" value="efecty">Efecty</input>
+                <input type="radio" value="centro">Directamente en el centro</input>
+
+       </fieldset>
+         </form>
+         <br><br>
+
+         <a href="#"><input type="button" value="Apadrinar"></a>
+
+     
+    
+</body>
+</html>
