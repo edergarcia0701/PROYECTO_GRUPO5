@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donar en Especie</title>
+    <link href="/CSS/estilo.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Hogar de paso y adopción para mascotas felices</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="Adoptar.html">Adoptar</a>
+            <a href="Apadrinar.html">Apadrinar</a>
+            <a href="Donar.html">Donar</a>
+            <a href="formulario_contáctenos.html">Contactenos</a>
+        </nav>
+    </main>
+    <h2>Centro de adopción de mascotas (perros y gatos)</h2>
+    <h3>DILIGENCIA EL SIGUIENTE FORMULARIO PARA DONAR EN ESPECIE</h3>
+    <h2>Las donaciones en especie son aquellas en las que en lugar de aportar dinero, el benefactor hace una aportación en bienes. La mayoría de las veces se trata de bienes valiosos que el donante ya cuenta que no utilizará o disfrutará, y considera que serán más útiles si con ellos apoya una causa noble.</h2>
+    <table cellpadding="10">
+        <tr>
+            <td>
+                <img src="/IMAGENES/DONAR ESPECIE MASCOTAS.jpg" height="300"/><br>
+            </td>
+            <td>
+                <h3>diligencia el siguiente formulario para saber más de ti</h3>       
+            </td>
+        </tr>
+    </table>
+    <form method="POST" action="mi_servidor">
+        <fieldset>
+             <legend><h4>Ingrese sus datos</h4></legend>
+             <label for="Nombre y Apellido">Nombre y Apellido:</label>
+             <input type="text" id="Nombre y Apellido" name="Nombre y Apellido" placeholder="Nombre y Apellido" required="true"><br><br>
+             <label for="Dirección">Dirección:</label>
+             <input type="text" id="Dirección" name="Dirección" placeholder="si es para recoger"><br><br>
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" placeholder="Escribe tu email"><br><br>
+             <label for="telefono">Telefono:</label>
+             <input type="text" id="telefono" name="telefono" placeholder="Escribe tu numero de telefono"><br><br>
+             <h4>Indíquenos que desea donar y como lo va a entregar</h4>
+             <textarea name="texto" rows="4" cols="100">antes que nada, millones de gracias</textarea>     
+        </fieldset>
+    </form>
+    <br>
+    <a href="#"><input type="button" value="Enviar solicitud de donación" class="boton1"></a>
+    <br><br>    
+    <footer><p>-Dirección: calle 200 autopista norte    -Telefono: 5555555    -email: hogarparamascotas@gmail.com</p></footer>
+</body>
+</html>
